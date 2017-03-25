@@ -1,0 +1,12 @@
+body { 
+	text-align: right;
+	background: url(images/patagonia_dogs.png);
+	background-size: cover;
+	color:	#000; 
+	font-family: oswald;
+
+}
+
+aside {
+	width: 20%;
+}

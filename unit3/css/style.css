@@ -1,6 +1,6 @@
 body { 
-	text-align: right;
-	background: url(images/patagonia_dogs.png);
+	text-align: center;
+	background: url(/images/patagonia_dogs.png);
 	background-size: cover;
 	color:	#000; 
 	font-family: oswald;
@@ -9,4 +9,18 @@ body {
 
 aside {
 	width: 20%;
+}
+
+.bar { 
+	font-size: 30px;
+	padding: 10px;
+	 }
+
+nav {
+	text-decoration: none;
+	text-transform: uppercase;
+}	 
+
+hr{
+	width: 500px
 }

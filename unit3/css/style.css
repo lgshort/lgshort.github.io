@@ -1,8 +1,9 @@
 body { 
 	text-align: center;
-	background: url(/images/patagonia_dogs.png);
+	background: url(../images/patagonia_dogs.png);
 	background-size: cover;
-	color:	#000; 
+	opacity: .5;
+	color:	#fff; 
 	font-family: oswald;
 
 }

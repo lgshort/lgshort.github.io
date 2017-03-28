@@ -1,27 +1,59 @@
+
+
 body { 
 	text-align: center;
 	background: url(../images/patagonia_dogs.png);
 	background-size: cover;
-	opacity: .5;
-	color:	#fff; 
-	font-family: oswald;
+	color: #fff; 
+	font-family: "Oswald", Arial, sans-serif;	
 
+}
+
+h1{
+	font-weight: 
+}
+
+#content {
+	margin-right: -550px;
+	margin-top: 100px;
 }
 
 aside {
 	width: 20%;
+	float: left;
+	margin-top: -300px;
+}
+
+
+nav {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-variant: small-caps;
+}	
+
+a {
+	color: rgb(19,224,255);
 }
 
 .bar { 
 	font-size: 30px;
 	padding: 10px;
-	 }
-
-nav {
-	text-decoration: none;
-	text-transform: uppercase;
-}	 
+	 } 
 
 hr{
-	width: 500px
+	vertical-align: center;
+	width: 450px
 }
+
+
+#contact {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: right;
+  text-decoration: none;
+}
+
+

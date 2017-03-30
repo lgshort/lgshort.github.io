@@ -1,17 +1,20 @@
 
 
 body { 
-	text-align: left;
+	text-align: center;
 	color: #000; 
 	font-family: "Oswald", Arial, sans-serif;	
 
 }
 
 #splash {
-	background: url(../images/hiking_patagonia.png);
+	background-image: url("images/notebook.png");
 	background-size: cover;
-	width: 80%;
+	background-repeat: no-repeat;
+	width: 100%;
+
 }
+
 #homepage {
 	margin-right: -550px;
 	margin-top: 100px;
@@ -22,7 +25,6 @@ aside {
 	float: left;
 	margin-top: -300px;
 }
-
 
 nav {
 	text-decoration: none;
@@ -41,6 +43,7 @@ a {
 
 hr{
 	vertical-align: left;
+	width: 450px;
 }
 
 

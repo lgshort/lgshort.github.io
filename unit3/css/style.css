@@ -1,46 +1,41 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Oswald:300');
 
 *{
 	padding: 0;
 	margin: 0;
+	box-sizing:border-box;
 }
 
-body { 
-	text-align: center;
-	color: #000; 
+body {
+	color: #fff;
 	font-family: Georgia, sans-serif;
 	font-size: 16px; /*1em=16px*/
 	letter-spacing: 1px;
 	font-weight: 300;
-	
+	line-height: 1.5;
 }
-
-.splash{
-	position: fixed;
+section {
+	padding:5em 0;
+}
+#Homepage {
 	background-image: url(../images/notebook.png);
 	background-repeat: no-repeat;
- 	z-index: -1;
-
+	background-size:cover;
+	padding: 0;
 }
-
-.layer{
-	background-color: rgba(5,58,66,.5);
-	position: absolute;
-}
-
-
-.homepage{
-	position: relative;
-	z-index: 1;
-}
-
-
-p{
-	width: 32em;
-	line-height: 1.5em;
+#Homepage > div {
+	background: rgba(5, 58, 66, 0.45);
+	padding: 10em 0 0;
+	height: 90vh;
+	width: 100%;
 	text-align: center;
-	margin: auto;
-	font-weight: light;
+}
+#Homepage p {
+	margin:1em auto;
+	width:32em;
+}
+p {
+	margin-top:1em;
 }
 
 #slogan{
@@ -53,15 +48,12 @@ h2,
 h3,
 nav {
 	font-family: 'Oswald', sans-serif;
-	
+	font-weight: 300;
 }
 
 h1 {
 	font-size: 3em;
 	letter-spacing: 2px;
-	font-weight: light;
-	padding-top: 2em;
-
 }
 
 h2 {
@@ -78,49 +70,31 @@ nav {
 	text-decoration: none;
 	text-transform: uppercase;
 	border-bottom: 1px;
+	width: 100%;
+	float: left;
 }
 
 a {
 	color: rgb(19,224,255);
 }
-
-.bar { 
-	font-size: 1.5em;
-	padding: 10px;
-	 } 
-
-hr{
-	border: none;
-	height: 3px;
-	background-color: #000;
-	width: 10em;
-	margin: 1em auto;
+#contact {
+	color:#333;
 }
-
-.About{
-	margin-top: 5em;
-	padding: 2em;
+#About{
 	background-color: rgb(5,58,66);
-	color: #fff;
-	font-weight: 100;
 }
-
-.Portfolio{
-	margin-top: 5em;
-	padding: 2em;
+#Portfolio{
 	background-color: rgba(5,58,66,.75);
-	color: #fff;
 }
-
-.Services{
-	margin-top: 5em;
-	padding: 2em;
+#Services{
 	background-color: rgba(5,58,66,.5);
-	color: #fff;
 }
 
 
 ul {
     list-style-type: none;
 }
-
+.wrapper {
+	max-width: 40em;
+	margin:auto;
+}

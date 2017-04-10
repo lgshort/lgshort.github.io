@@ -58,6 +58,7 @@ h1 {
 
 h2 {
 	font-size: 2.25em;
+	text-align: center;
 }
 
 h3{
@@ -118,4 +119,16 @@ ul {
 .tasks{
 	display: inline;
 	margin: 0 20em;
+}
+
+.icon{
+	width: 250px;
+	padding: 10px 15px;
+	margin: auto 20px;
+
+}
+.caption{
+	width: 125px;
+	padding: 5px;
+	margin-bottom: 20px;
 }

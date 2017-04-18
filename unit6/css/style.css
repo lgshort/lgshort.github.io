@@ -91,14 +91,14 @@ a {
 
 #about{
 	background-color: rgb(5,58,66);
-	height: 30em;
+	height: 35em;
 }
 #portfolio{
 	background-color: rgba(5,58,66,.75);
 }
 #services{
 	background-color: rgba(5,58,66,.5);
-	padding-bottom: 20em;
+	padding-bottom: 30em;
 }
 footer{
 	background-color: rgba(5,58,66,.5);
@@ -106,25 +106,29 @@ footer{
 	font-size: .75em;
 	padding-top: 15em;
 }
-
+aside{
+	float: left;
+	width: 20em;
+	margin-left: 5em;
+	margin-bottom: 2em;
+}
 .bar{
 	padding: 1em;
-
 }
-
 ul {
     list-style-type: none;
 }
-
 .project{
 	float: left;
-	padding: 2em 1.5em;
+	padding: 1em 2em;
 	margin: 2em;
-	width: 25%;
-	height: 400px;
+	width: 28%;
+	height: 500px;
 	background-color: rgba(5,58,66,.7);
 }
-
+#photography {
+	clear: both;
+}
 .clearfix:after{
 	visibility: hidden;
 	display: block;
@@ -133,34 +137,42 @@ ul {
 	clear: both;
 	height: 0;
 }
-
 .activities {
-	display: block;
+	/*display: block;*/
 	float: left;
-	margin-left: 20em;
 	text-align: center;
-	margin-top: 5em;
+	margin: 3em 1.5em 3em 10em;
 }
-
+.icon{
+	width: 80%;
+}
+#strategy{
+	margin-top: 4.5em;
+}
 .caption{
-	width: 30%;
-	padding: 15px;
-	margin-bottom: 20px;
+	width: 50%;
+	padding: .75em;
+	margin-bottom: 2em;
 }
 
 #portrait{
-	float: left;
-	margin-left: 5%;
-	width: 15%;
 	max-width: 100%;
 }
 
 #about p{
 	float: left;
-	width: 25em;
+	width: 30em;
 	margin-left: 5.5%;
 }
 
 #about h2{
 	text-align: center;
+}
+
+.project p{
+	padding: 1em;
+}
+
+.project:a:hover{
+	background-color: rgba(5,58,66,.5);
 }

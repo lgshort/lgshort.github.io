@@ -98,11 +98,13 @@ a {
 }
 #services{
 	background-color: rgba(5,58,66,.5);
+	padding-bottom: 20em;
 }
 footer{
 	background-color: rgba(5,58,66,.5);
 	text-align: center;
 	font-size: .75em;
+	padding-top: 15em;
 }
 
 .bar{
@@ -116,10 +118,10 @@ ul {
 
 .project{
 	float: left;
-	padding: 1.5em;
-	margin: 0 30em;
-	width: 97%;
-	height: 360px;
+	padding: 2em 1.5em;
+	margin: 2em;
+	width: 25%;
+	height: 400px;
 	background-color: rgba(5,58,66,.7);
 }
 
@@ -133,34 +135,32 @@ ul {
 }
 
 .activities {
-	display: inline;
-	margin: 0 20em;
+	display: block;
+	float: left;
+	margin-left: 20em;
+	text-align: center;
+	margin-top: 5em;
 }
 
-.icon{
-	width: 250px;
-	padding: 10px 15px;
-	margin: auto 20px;
-
-}
 .caption{
-	width: 125px;
-	padding: 5px;
+	width: 30%;
+	padding: 15px;
 	margin-bottom: 20px;
 }
 
 #portrait{
 	float: left;
-	margin-left: 40px;
+	margin-left: 5%;
+	width: 15%;
+	max-width: 100%;
 }
 
 #about p{
 	float: left;
-	width: 30em;
-	margin-left: 80px;
+	width: 25em;
+	margin-left: 5.5%;
 }
 
 #about h2{
-	margin-left: 80px;
-	float: left;
+	text-align: center;
 }

@@ -5,9 +5,9 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-	<main>		
-		<div class="wrapper clearfix">
-			<section id="splash">
+	<main id="wrapper clearfix">		
+		<section id="splash">
+			<div>
 				<h1>Lauren Short</h1>		
 				<h2 id="slogan">user researcher + content strategist</h2>
 				<p>I am an innovative problem solver focused on user research and content strategy. My passion is understanding people to better improve the user experience.</p>
@@ -17,40 +17,45 @@
 			<a href="#services">Services</a><span class="bar">|</span>
 			<a href="mailto:lgiordan@gmail.com" id="contact">connect with me</a>
 			</nav>			
-			</section>
-		</div>	
-		<div class="wrapper clearfix">
-			<section id="about">
-				<h2>About Me</h2>
-				<aside><img id="portrait" src="images/lauren_portrait.png"></aside>	
-				<p>The one constant in my career has always been people. Understanding how people think, getting answers to "why" people do what they do, and helping customers explore new ways to improve the user experience.</p>
-				<p>I dabble in digital design, photography, but most importantly, I specialize in user research and content strategy. My goal is to create both digital and print media that people can emotionally connect with for a positive user experience.</p>
-			</section>
-		</div>		
-		<div id="portfolio" class="wrapper clearfix">
+			</div>
+		</section>	
+		<section id="about">
+			<h2>About Me</h2>
+			<aside><img id="portrait" src="images/lauren_portrait.png"></aside>	
+			<p>The one constant in my career has always been people. Understanding how people think, getting answers to "why" people do what they do, and helping customers explore new ways to improve the user experience.</p>
+			<p>I dabble in digital design, photography, but most importantly, I specialize in user research and content strategy. My goal is to create both digital and print media that people can emotionally connect with for a positive user experience.</p>
+		</section>	
+		<section id="portfolio" class="clearfix">
 			<h2>Portfolio</h2>
-			<section class="project">
+			<div class="project">
+			<div id="project one">
 					<h3>Startup: Commonwealth Home Services</h3>	
 					<p>In order to create a design concept and build a client's startup company website I first needed to define their product goals, identify the target audience, and analyze competition strategies.<a href="#">link to project</a></p>
 					<img class="caption" src="images/research_caption_icon.png"><img class="caption" src="images/strategy_caption_icon.png">
-			</section>
-			<section class="project">
+				</div>
+			</div>
+			<div class="project">
+			<div id="project two">
 					<h3>Website Redesign: SMART</h3>	
 					<p>Migration of a MOSS2007 CMS website to SP2013 including complete site redesign to reduce redundancy, improve accessibility & organization of information, and meet 508 compliance requirements.<a href="#">link to project</a></p>
 					<img class="caption" src="images/research_caption_icon.png"><img class="caption" src="images/strategy_caption_icon.png">
-			</section>	
-			<section class="project">
+				</div>
+			</div>	
+			<div class="project">
+			<div id="project three">
 					<h3>App Modernization</h3>
 					<p>Modernization of a 10-year-old mission critical application with over 300 web pages.<a href="#">link to project</a></p>
 					<img class="caption" src="images/research_caption_icon.png">
-			</section>
-			<section id="photography">	
-				<h3>Photography</h3>	
-			</section>
-		</div>	
-	<div id="services">
+				</div>
+			</div>
+				<div id="project four">	
+					<h3>Photography</h3>	
+				</div>
+			</div>	
+		</section>
+	<section id="services">
 		<h2>Services</h2>
-		<section id="research">	
+		<div id="research">	
 			<div class="activities">
 				<img class="icon" src="images/research_icon.png">
 				<h3>Research</h3>
@@ -61,7 +66,7 @@
 					<li>card sorting</li>
 				</ul>
 			</div>		
-		</section>
+		</div>
 		<div id="strategy">
 			<div class="activities">
 				<img class="icon" src="images/strategy_icon.png">

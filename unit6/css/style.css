@@ -14,7 +14,38 @@ body {
 	line-height: 1.5;
 }
 section {
-	padding:3em 0;
+	padding:5em 0;
+}
+
+#wrapper {
+	max-width: 100%;
+	margin: auto;
+}
+
+#splash {
+	background-image: url(../images/notebook.png);
+	background-repeat: no-repeat;
+	background-size:cover;
+	padding: 0;
+}
+#splash > div {
+	background: rgba(5, 58, 66, 0.45);
+	padding: 10em 0 0;
+	height: 95vh;
+	width: 100%;
+	text-align: center;
+}
+#splash p {
+	margin:1em auto;
+	width:32em;
+}
+p {
+	margin-top:1em;
+}
+
+#slogan{
+	margin-top: .5em;
+	margin-bottom: .5em;
 }
 
 h1,
@@ -41,9 +72,6 @@ h3{
 	font-variant: small-caps;
 	font-weight: bold;
 }
-p {
-	margin-top:1em;
-}
 
 nav {
 	text-transform: uppercase;
@@ -61,73 +89,37 @@ a {
 	font-weight: 400;
 }
 
-img{
-	width: 100%;
+#about{
+	background-color: rgb(5,58,66);
+	height: 30em;
 }
-
+#portfolio{
+	background-color: rgba(5,58,66,.75);
+}
+#services{
+	background-color: rgba(5,58,66,.5);
+}
 footer{
 	background-color: rgba(5,58,66,.5);
 	text-align: center;
 	font-size: .75em;
 }
 
+.bar{
+	padding: 1em;
+
+}
+
 ul {
     list-style-type: none;
 }
 
-.wrapper {
-	max-width: 90%;
-	margin: auto;
-	/*background-color: purple;*/
-}
-
-#splash {
-	background-image: url(../images/notebook.png);
-	background-repeat: no-repeat;
-	background-size:cover;
-	padding: 0;
-}
-
-#splash > div {
-	background: rgba(5, 58, 66, 0.45);
-	padding: 10em 0 0;
-	height: 95vh;
-	width: 100%;
-	text-align: center;
-}
-
-#splash p {
-	margin:1em auto;
-	width:32em;
-}
-
-#slogan{
-	margin-top: .5em;
-	margin-bottom: .5em;
-}
-
-#about{
-	background-color: rgb(5,58,66);
-	height: 30em;
-}
-
-#portfolio{
-	background-color: rgba(5,58,66,.75);
-}
-
-#services{
-	background-color: rgba(5,58,66,.5);
-}
-
-.bar{
-	padding: 1em;
-}
-
 .project{
 	float: left;
-	/*padding: 1.5em;*/
-	margin: auto;
-	width: 30%;
+	padding: 1.5em;
+	margin: 0 30em;
+	width: 97%;
+	height: 360px;
 	background-color: rgba(5,58,66,.7);
 }
 
@@ -141,14 +133,14 @@ ul {
 }
 
 .activities {
-	width: 30%;
-	margin: 0 10em;
+	display: inline;
+	margin: 0 20em;
 }
 
 .icon{
-	width: 50%;
+	width: 250px;
 	padding: 10px 15px;
-	margin: auto 1em;
+	margin: auto 20px;
 
 }
 .caption{

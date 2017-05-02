@@ -176,3 +176,17 @@ ul {
 .project:a:hover{
 	background-color: rgba(5,58,66,.5);
 }
+
+@media only screen and (max-width: 1100px) {
+	#splash {
+		width: 100%;
+		padding: 0;
+		}
+	.project{
+		float: none;
+		padding: 2em;
+		margin: .5em;
+		width: 90%;
+		background-color: rgba(5,58,66,.7);
+		}	
+}

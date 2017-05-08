@@ -178,10 +178,20 @@ ul {
 }
 
 @media screen and (max-width: 1199px){
+	
+	#splash > div {
+		padding-top: 1em;
+		height: 95vh;
+	}
+	#about p{
+		float: left;
+		width: 30em;
+		margin-left: auto;
+}
 	.project{
 		float: none;
-		padding-top: 1em;
-		margin: 1em 2em;
+		padding-top: 1.5em;
+		margin: 1em 1em 1em 2em;
 		width: 95%;
 		height: auto;
 }
@@ -190,28 +200,9 @@ ul {
 		padding: .75em;
 		margin-left: 10em;
 }
-	#splash > div {
-		padding-top: 1em;
-		height: 95vh;
-	}
-	#splash {
-		padding-top: 1em;
-}
 }
 
 @media screen and (max-width: 1055px){
-
-	#splash > div {
-		padding: auto;
-		height: 100vh;
-}
-	#splash {
-		padding: auto;
-}
-	nav {
-		padding: 1em 0 5em 0;
-		font-size: 1em;
-}
 	#services{
 		padding-bottom: 5em;
 }
@@ -229,28 +220,20 @@ ul {
 }
 @media screen and (max-width: 932px){
 	
-	body {
-		font-size: 12px;
-		letter-spacing: 1px;
-		line-height: 1;
-	}
 	section {
 		padding:auto;
+		width: 100%;
 	}
 	#wrapper {
-		max-width: 90%;
+		max-width: 100%;
 }
-	#splash {
-		width: 80%;
-	}
 	#splash p {
 		font-size: 1em;
 	}
 	#about{
 		height: 50em;
-		text-align: center:;
+		text-align: center;
 		padding-bottom: 2em;
-		width: 80%;
 }
 	#about h2{
 		padding-bottom: 1em;
@@ -261,16 +244,21 @@ ul {
 }
 	#about p{
 		float: none;
-		width: 80%;
 		text-align: center;
+		margin: 1em auto;
 }
-	#portfolio{
-		width: 80%;
-	}
+#portfolio{
+	margin-top: auto;
+}
 	.project{
 		float: none;
 		padding: 1.5em 1em 1em 1em;
 		margin: 2em auto;
 		width: 80%;
 	}
+	.caption{
+		width: 25%;
+		padding: .75em;
+		margin-left: 7em;
+}
 }

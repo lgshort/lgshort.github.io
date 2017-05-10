@@ -294,9 +294,7 @@ ul {
 		display: block;
 }
 	#splash > div {
-		padding-top: 1em;
-		height: 50vh;
-		width: auto;
+		height: 50vh;		
 }
 	#splash p {
     		margin: auto;

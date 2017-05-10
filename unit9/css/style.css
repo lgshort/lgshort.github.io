@@ -213,6 +213,11 @@ ul {
 }
 
 @media screen and (max-width: 1055px){
+	#splash > div {
+		padding-top: 1em;
+		height: 50vh;
+		width: auto;
+}
 	#services{
 		padding-bottom: 5em;
 }
@@ -236,6 +241,11 @@ ul {
 	}
 	#wrapper {
 		max-width: 100%;
+}
+	#splash > div {
+		padding-top: 1em;
+		height: 50vh;
+		width: auto;
 }
 	#splash p {
 		font-size: 1em;

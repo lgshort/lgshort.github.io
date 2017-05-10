@@ -290,6 +290,9 @@ ul {
 	.bar{
 		display: none;
 	}
+	nav:hover a {
+		display: block;
+	}
 	a{
 		float: none;
 		width:auto;

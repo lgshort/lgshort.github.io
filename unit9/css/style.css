@@ -285,6 +285,7 @@ ul {
 @media screen and (max-width: 600px){
 	#mobile{
 		display: block;
+		text-decoration: none;
 	}
 	.bar{
 		display: none;

@@ -293,6 +293,11 @@ ul {
 	nav:hover a {
 		display: block;
 	}
+	#splash > div {
+		padding-top: 1em;
+		height: 40vh;
+		width: auto;
+}
 	#splash p {
     		margin: auto;
     		width: auto;

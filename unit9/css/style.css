@@ -284,7 +284,10 @@ ul {
 }
 @media screen and (max-width: 600px){
 	#mobile{
-		display: inline;
+		display: block;
+	}
+	.bar{
+		display: none;
 	}
 	a{
 		float: none;

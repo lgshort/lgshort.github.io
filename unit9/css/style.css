@@ -283,23 +283,24 @@ ul {
 }
 }
 @media screen and (max-width: 600px){
-	#mobile{
-		display: block;
-		text-decoration: none;
-	}
-	.bar{
-		display: none;
-	}
-	nav:hover a {
-		display: block;
-	}
 	#splash > div {
 		padding-top: 1em;
-		height: 40vh;
+		height: 30vh;
 		width: auto;
 }
 	#splash p {
     		margin: auto;
     		width: auto;
 }
+	#mobile{
+		display: block;
+		text-decoration: none;
+}
+	.bar{
+		display: none;
+}
+	nav:hover a {
+		display: block;
+}
+
 }

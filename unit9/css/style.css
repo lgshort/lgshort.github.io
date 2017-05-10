@@ -82,7 +82,7 @@ nav {
 	font-size: 1.2em;
 }
 
-nav a {
+a {
 	color: rgb(19,224,255);
 	font-family: 'Oswald', sans-serif;
 	text-transform: uppercase;
@@ -276,7 +276,7 @@ ul {
 	#mobile{
 		display: block;
 	}
-		nav a{
+	a{
 		float: none;
 		width:auto;
 		display: none;

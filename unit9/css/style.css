@@ -88,6 +88,9 @@ a {
 	text-transform: uppercase;
 	font-weight: 400;
 }
+#mobile{
+	display: none;
+}
 
 #about{
 	background-color: rgb(5,58,66);
@@ -260,5 +263,20 @@ ul {
 		width: 25%;
 		padding: .75em;
 		margin-left: 7em;
+}
+}
+@media screen and (max-width: 600px){
+	nav{
+		display: none;
+	}
+	#mobile{
+		display: block;
+	}
+	a{
+		display: block;
+	}
+	#splash p {
+    		margin: 1em auto;
+    		width: auto;
 }
 }

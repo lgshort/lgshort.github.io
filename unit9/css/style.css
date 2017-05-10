@@ -82,7 +82,7 @@ nav {
 	font-size: 1.2em;
 }
 
-a {
+nav a {
 	color: rgb(19,224,255);
 	font-family: 'Oswald', sans-serif;
 	text-transform: uppercase;
@@ -179,12 +179,18 @@ ul {
 .project p{
 	padding: 1em;
 }
-
+@media screen and (max-width: 1435px){
+	#splash > div {
+		padding-top: 1em;
+		height: 50vh;
+		width: auto;
+	}	
+}
 @media screen and (max-width: 1199px){
 	
 	#splash > div {
 		padding-top: 1em;
-		height: 80vh;
+		height: 50vh;
 		width: auto;
 	}
 	#about p{
@@ -267,14 +273,13 @@ ul {
 }
 }
 @media screen and (max-width: 600px){
-	nav{
-		display: none;
-	}
 	#mobile{
 		display: block;
 	}
-	a{
-		display: block;
+		nav a{
+		float: none;
+		width:auto;
+		display: none;
 	}
 	#splash p {
     		margin: auto;

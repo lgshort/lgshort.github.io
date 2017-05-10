@@ -31,7 +31,7 @@ section {
 #splash > div {
 	background: rgba(5, 58, 66, 0.45);
 	padding: 5em 0 0;
-	height: 95vh;
+	height: 80vh;
 	width: 100%;
 	text-align: center;
 }
@@ -289,6 +289,9 @@ ul {
 }
 	.bar{
 		display: none;
+}
+	a{
+		display:none;
 }
 	nav:hover a {
 		display: block;

@@ -274,7 +274,7 @@ ul {
 }
 @media screen and (max-width: 600px){
 	#mobile{
-		display: block;
+		display: inline;
 	}
 	a{
 		float: none;

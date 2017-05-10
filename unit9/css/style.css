@@ -283,15 +283,6 @@ ul {
 }
 }
 @media screen and (max-width: 600px){
-	#splash > div {
-		padding-top: 1em;
-		height: 40vh;
-		width: auto;
-}
-	#splash p {
-    		margin: auto;
-    		width: auto;
-}
 	#mobile{
 		display: block;
 		text-decoration: none;
@@ -302,5 +293,13 @@ ul {
 	nav:hover a {
 		display: block;
 }
-
+	#splash > div {
+		padding-top: 1em;
+		height: 45vh;
+		width: auto;
+}
+	#splash p {
+    		margin: auto;
+    		width: auto;
+}
 }

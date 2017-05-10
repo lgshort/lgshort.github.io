@@ -293,11 +293,11 @@ ul {
 	nav:hover a {
 		display: block;
 	}
-	a{
-		float: none;
-		width:auto;
-		display: none;
-	}
+/* 	a{ */
+/* 		float: none; */
+/* 		width:auto; */
+/* 		display: none; */
+/* 	} */
 	#splash p {
     		margin: auto;
     		width: auto;

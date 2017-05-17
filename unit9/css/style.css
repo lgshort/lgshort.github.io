@@ -262,3 +262,18 @@ ul {
 		margin-left: 7em;
 }
 }
+@media screen and (max-width: 580px){
+	.bar{
+		display: none;
+	}
+
+	nav{
+		float: none;
+	}
+
+	nav a:link{
+		display: block;
+		padding:15px;
+		margin:5px;
+	}
+	}
